@@ -1,0 +1,27 @@
+.jimu-widget-header-inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.jimu-widget-header-inner > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.jimu-widget-header .logo {
+  width: 80px;
+  padding: 0 10px;
+}
+.jimu-widget-header .logo img {
+  max-width: 50px;
+  vertical-align: middle;
+}
+.jimu-widget-header .titles {
+  width: 100%;
+}
+.jimu-widget-header .jimu-title,
+.jimu-widget-header .jimu-subtitle {
+  display: inline;
+}
+.jimu-widget-header .jimu-link {
+  padding: 10px;
+}
